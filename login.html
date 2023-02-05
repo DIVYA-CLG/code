@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Burger</title>
+    <link rel="shortcut icon" type="image" href="../capstone project/img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- bootstrap link -->
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+  <style>
+    body
+    {
+ background-image: url("back.jpg");
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md" id="navbar-color">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#" id="logo-color"><i><img src="../capstone project/img/logo.png" alt=""></i>Burger</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span><i><img src="../capstone project/menu.png" alt="" id="menu-color"></i></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="HOME1.html" id="first">Home</a>
+                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="BURGER.html">Super Deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="CHICKEN BURGER.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ABOUT US.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="CONTACT1.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOGIN
+
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+<div class="container">
+  <h2 style="text-align:center; margin-top:100px; color:black;"><i><u>LOGIN TO PLACE YOUR FIRST ORDER</u></i></h2>
+
+  <!-- Trigger the modal with a button -->
+  <center>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="margin-top:70px;">LOGIN</button>
+  <h1 style=" margin-top:80px;">EAT...SLEEP...WORK!!!!</h1>
+</center>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+           <h4 class="modal-title"><b>LOGIN</b></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+         
+        </div>
+        <div class="modal-body">
+        
+ 
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="Name">Name:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter Name" name="text">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    
+    <button type="submit" class="btn btn-default"style="background-color:orange;">Submit</button>
+  </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" style="background-color:cyan;">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
